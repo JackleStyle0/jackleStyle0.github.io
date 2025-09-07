@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+        }
+        .column_left, .column_right {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } 
+        .column_left {
+            background-color: white;
+        }
+        .column_right {
+            background-color:lightgrey;
+        }
+    </style>
 </head>
+
 <body>
-   <h1>Hello World</h1> 
+    <div class="column_left">Column 1</div>
+    <div class="column_right">Column 2</div>ß
 </body>
+
 </html>
